@@ -1,0 +1,37 @@
+h3{
+    font-family: 'Inria Serif', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.second-section{
+    display:flex;
+    justify-content: space-between;
+    margin-left:18%;
+    align-items: center;
+}
+.second-section-titles{
+    padding: 1em;
+}
+
+.second-section-titles > div {
+    border-top: 1.5px solid #393B3F;
+    border-bottom: 1.5px solid #393B3F;
+    padding-top:10px;
+    padding-bottom: 10px;
+    
+}
+
+.second-section-titles > div > h1 {
+    margin: 0;
+}
+
+
+.imgs-carousel{
+    display:flex;
+
+}
+
+.iria-serif-regular{
+    font-weight: 400;
+}

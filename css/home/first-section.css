@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
 
 h1{
     font-style: normal;
+    font-family: 'Inter', 'sans-serif';
 }
 
 .first-section{
@@ -12,7 +13,7 @@ h1{
 }
 
 .jumbotron > .title > h1{
-    font-size: 7rem;
+    font-size: 6rem;
     margin: 0;
     font-style: normal;
 }
@@ -20,15 +21,15 @@ h1{
 
 .jumbotron{
     width: fit-content;
-    margin-top:5em;
-    margin-left: 10em;
+    margin-top:10em;
+    margin-left: 18%;
     border-left: 8px solid #5973B6;
     padding-left:4em;
 }
 .jumbotron > .title{
     position:relative;
     border-bottom: 2px solid #FFFFFF;
-    font-family: 'Inter', 'sans-serif';
+  
     
 
 }
@@ -69,6 +70,10 @@ h1{
     position: absolute;
     left:50%;
     top:90%;
+}
+
+img{
+    display:block;
 }
 
 
