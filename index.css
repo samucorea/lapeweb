@@ -1,0 +1,35 @@
+a{
+    color:white;
+    text-decoration: none;
+    
+}
+
+.first-section{
+    background: #393B3F;
+    color: #FFFFFF;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul > li {
+    margin-right:1.5em;
+}
+
+.brand{
+    font-size: 3em;
+    margin-right:1.5em;
+}
+.navbar{
+    display:flex;
+    align-items: baseline;
+    padding:1em;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+    align-items: baseline;
+    
+}
