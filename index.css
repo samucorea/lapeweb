@@ -1,35 +1,50 @@
-a{
-    color:white;
-    text-decoration: none;
-    
+
+h1{
+    font-style: normal;
 }
 
 .first-section{
     background: #393B3F;
     color: #FFFFFF;
+    height:800px;
 }
 
-ul{
-    list-style-type: none;
+.jumbotron > .title > h1{
+    font-size: 7rem;
+    margin: 0;
+    font-style: normal;
 }
 
-ul > li {
-    margin-right:1.5em;
-}
 
-.brand{
-    font-size: 3em;
-    margin-right:1.5em;
+.jumbotron{
+    width: fit-content;
 }
-.navbar{
-    display:flex;
-    align-items: baseline;
-    padding:1em;
-    justify-content: space-between;
-}
-
-.nav-items{
-    display: flex;
-    align-items: baseline;
+.jumbotron > .title{
+    position:relative;
+    border-bottom: 2px solid #FFFFFF;
     
+
 }
+
+.jumbotron > .sub-titles{
+    position:relative;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-between;
+    
+   
+}
+
+.jumbotron > .sub-titles > li {
+    margin: 0;
+}
+
+.arrow{
+    position:absolute;
+    left:101%;
+    top: 15%;
+}
+
+
+
