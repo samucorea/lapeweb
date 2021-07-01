@@ -1,0 +1,58 @@
+
+.first-section{
+    padding-bottom:5%;
+}
+.content{
+    margin-top:5em;
+}
+
+p{
+    font-family: 'Inria Serif', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    margin:0;
+    width:45em;
+ 
+}
+
+.first-section{
+    min-height:fit-content;
+}
+
+.account-actions{
+    font-size:.9rem;
+    font-family: 'Inria Serif', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    margin-top:6em;
+}
+
+.svg-icon{
+    display: inline-flex;
+    align-self: center;
+    margin-left:.3em;
+}
+
+
+.svg-icon.svg-baseline{
+    top: .125em;
+    position:relative;
+}
+
+.profile{
+    position:absolute;
+    top:19.5%;
+    right:8%;
+}
+
+.sub-titles{
+    padding: 0;
+    margin-right:0;
+    text-align:center;
+}
+ul.sub-titles > li {
+    margin-right:0;
+    margin-top:2em;
+}

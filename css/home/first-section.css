@@ -11,15 +11,9 @@ h1{
     position:relative;
     background: #393B3F;
     color: #FFFFFF;
-    height:800px;
+    min-height: fit-content;
+    padding-bottom:15%;
 }
-
-.jumbotron > .title > h1{
-    font-size: 6rem;
-    margin: 0;
-    font-style: normal;
-}
-
 
 .jumbotron{
     width: -moz-fit-content;
@@ -29,13 +23,19 @@ h1{
     border-left: 8px solid #5973B6;
     padding-left:4em;
 }
+
+.jumbotron > .title > h1{
+    font-size: 6rem;
+    margin: 0;
+    font-style: normal;
+}
+
+
+
 .jumbotron > .title{
     position:relative;
     border-bottom: 2px solid #FFFFFF;
-  
-    
-
-}
+  }
 
 #design-title{
     font-weight:400;
@@ -73,10 +73,6 @@ h1{
     position: absolute;
     left:50%;
     top:90%;
-}
-
-img{
-    display:block;
 }
 
 
