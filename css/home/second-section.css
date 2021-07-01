@@ -7,7 +7,7 @@ h3{
 .second-section{
     display:flex;
     justify-content: space-between;
-    margin-left:18%;
+    margin-left:9%;
     align-items: center;
 }
 .second-section-titles{
@@ -29,9 +29,36 @@ h3{
 
 .imgs-carousel{
     display:flex;
-
+    align-items: center;
 }
 
-.iria-serif-regular{
+.imgs-carousel > div{
+    position:relative;
+    font-family: 'Iria Serif', sans-serif;
+    font-weight: 700;
+}
+
+.imgs-carousel .carousel-arrow{
+    margin-right:0.3em;
+    cursor:pointer;
+}
+
+.imgs-carousel > div > h3{
+    position:absolute;
+    color: #FFFFFF;
+    bottom:40px;
+    position: absolute;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size:1rem;
+}
+
+
+.regular{
     font-weight: 400;
 }
+
+
+
