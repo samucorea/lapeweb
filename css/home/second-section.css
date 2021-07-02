@@ -14,6 +14,9 @@ h3{
     padding: 1em;
 }
 
+h1{
+    font-size:3rem;
+}
 .second-section-titles > div {
     border-top: 1.5px solid #393B3F;
     border-bottom: 1.5px solid #393B3F;
