@@ -83,15 +83,13 @@
     bottom:2%;
 }
 .selections{
-  
+    margin-top:3em;
+    flex-grow:0.1;
     display:flex;
-    flex-grow:0.3;
     justify-content: space-between;
 }
 
-.second-section-titles{
-    flex-grow:2;
-}
+
 .container{
     display:flex;
     justify-content: space-between;
