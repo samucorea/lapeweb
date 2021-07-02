@@ -1,9 +1,10 @@
 
-.first-section{
-    padding-bottom:5%;
-}
 .content{
     margin-top:5em;
+}
+
+.jumbotron{
+    margin-top:0;
 }
 
 p{
@@ -18,6 +19,7 @@ p{
 
 .first-section{
     min-height:fit-content;
+    padding-bottom:10%;
 }
 
 .account-actions{
@@ -40,19 +42,23 @@ p{
     top: .125em;
     position:relative;
 }
-
 .profile{
-    position:absolute;
-    top:19.5%;
-    right:8%;
+    margin-right:10em;
 }
 
-.sub-titles{
+.profile-info{
     padding: 0;
     margin-right:0;
     text-align:center;
 }
-ul.sub-titles > li {
+ul.profile-info > li {
     margin-right:0;
-    margin-top:2em;
+    margin-top:1.05em;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    margin-top:10em;
+
 }
