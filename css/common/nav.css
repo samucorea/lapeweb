@@ -15,6 +15,7 @@ ul > li {
     margin-right:1.5rem;
     font-family: 'Inria Serif', serif;
     letter-spacing: 2px;
+    font-size:1.1rem;
     
 }
 /* Nav styling */
@@ -42,4 +43,9 @@ ul > li {
 
 .bottom-navbar > ul > li {
     margin-left:1em;
+}
+
+.bottom-navbar img{
+    width:25px;
+    height: auto;
 }

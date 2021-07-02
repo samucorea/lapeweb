@@ -12,6 +12,7 @@
     border-top: 1.5px solid #FFFFFF;
     border-bottom: 1.5px solid #FFFFFF;
     width:fit-content;
+    width: -moz-fit-content;
 }
 .filters{
     width: -moz-fit-content;
@@ -20,6 +21,8 @@
 .filters > h1:first-child{
     margin-top:0;
     padding-bottom:1em;
+    font-size:1.5rem;
+    letter-spacing: 1px;
 }
 .filters > h2 {
     font-family: 'Inria Serif', sans-serif;
@@ -28,6 +31,7 @@
     border-top: 1px solid #FFFFFF;
     padding: 1.5em 0 1.8em;
     margin: 0;
+    font-size:1.3rem;
 }
 
 .filters > h2:last-child{
@@ -35,15 +39,27 @@
 }
 
 .imgs-carousel{
-
+    
     direction: rtl;
     flex-direction: column;
-    border-top: 1px solid rgb(255, 255, 255,.3);
-    border-bottom: 1px solid rgb(255, 255, 255,.3);
+    position:relative;
     padding: 1em 0 1em;
     overflow:hidden;
     overflow-y: scroll;
     height:48.5em;
+    padding-top:1em;
+    padding-left:3em;
+    scrollbar-width: thin;
+}
+
+.imgs-carousel > #borderTop{
+    border-top: 1px solid rgb(229,229,229,.44);
+    width:100%;
+}
+
+.imgs-carousel > #borderBottom{
+    border-bottom: 1px solid rgb(229,229,229,.44);
+    width:100%;
 }
 .imgs-carousel > div{
     margin-bottom:1em;
@@ -55,17 +71,21 @@
     
     direction: ltr;
     display: block;
-    width:250px;
+    width:270px;
     height:auto;
 }
 
 .imgs-carousel > div:last-child{
    margin: 0;
 }
+
+.imgs-carousel > div > h3{
+    bottom:2%;
+}
 .selections{
   
     display:flex;
-    flex-grow:0.5;
+    flex-grow:0.3;
     justify-content: space-between;
 }
 
@@ -80,17 +100,20 @@
     margin-left:5em;
 }
 
+
 #custom-scrollbar::-webkit-scrollbar{
     width:5px;
+
     
 }
 #custom-scrollbar::-webkit-scrollbar-track{
-   
+
     background-color: rgb(229,229,229,.44);
+    border-radius:20px;
 }
 
 #custom-scrollbar::-webkit-scrollbar-thumb{
-    
-    background-color: #E5E5E5;
-    border-radius: 20px;
+
+    background-color: #FFFFFF;
+    border-radius:20px; 
 }
