@@ -5,9 +5,19 @@
 
 .second-section-titles{
     position:relative;
-    font-size: 1.5rem;
+    font-size: 5rem;
 }
 
+.second-section-titles > h3{
+    margin-bottom:0;
+    margin-top:0;
+    font-size:1rem;
+}
+.second-section-titles > div> h1{
+    margin-bottom:0;
+    margin-top:0;
+    font-size:3rem;
+}
 .second-section-titles > div{
     border-top: 1.5px solid #FFFFFF;
     border-bottom: 1.5px solid #FFFFFF;
@@ -21,7 +31,7 @@
 .filters > h1:first-child{
     margin-top:0;
     padding-bottom:1em;
-    font-size:1.5rem;
+    font-size:1.3rem;
     letter-spacing: 1px;
 }
 .filters > h2 {
@@ -31,7 +41,7 @@
     border-top: 1px solid #FFFFFF;
     padding: 1.5em 0 1.8em;
     margin: 0;
-    font-size:1.3rem;
+    font-size:0.9rem;
 }
 
 .filters > h2:last-child{
@@ -46,7 +56,7 @@
     padding: 1em 0 1em;
     overflow:hidden;
     overflow-y: scroll;
-    height:45em;
+    height:35em;
     padding-top:1em;
     padding-left:3em;
     scrollbar-width: thin;
@@ -70,8 +80,7 @@
 .imgs-carousel > div > img{
     
     direction: ltr;
-    display: block;
-    width:270px;
+    width:auto;
     height:auto;
 }
 

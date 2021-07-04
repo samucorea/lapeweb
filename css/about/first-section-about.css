@@ -13,8 +13,8 @@ p{
     letter-spacing: 1px;
     line-height: 1.5em;
     margin:0;
-    width:45em;
-    font-size:1.1rem;
+    width:40em;
+    font-size:1rem;
  
 }
 
@@ -44,7 +44,8 @@ p{
     position:relative;
 }
 .profile{
-    margin-right:10em;
+    margin-right:5em;
+    margin-top:2.5em;
 }
 
 .profile-info{
