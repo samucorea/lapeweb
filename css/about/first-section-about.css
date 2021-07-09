@@ -32,7 +32,7 @@ p{
     margin-top:6em;
 }
 
-.svg-icon{
+/* .svg-icon{
     display: inline-flex;
     align-self: center;
     margin-left:.3em;
@@ -42,7 +42,7 @@ p{
 .svg-icon.svg-baseline{
     top: .125em;
     position:relative;
-}
+} */
 .profile{
     margin-right:5em;
     margin-top:2.5em;

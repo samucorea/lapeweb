@@ -5,3 +5,15 @@ html{
 .selected{
     color: #7F9BE3;
 }
+
+.svg-icon{
+    display: inline-flex;
+    align-self: center;
+    margin-left:.3em;
+}
+
+
+.svg-icon.svg-baseline{
+    top: .125em;
+    position:relative;
+}
