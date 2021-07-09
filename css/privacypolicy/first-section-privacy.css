@@ -1,0 +1,40 @@
+h2{
+    margin-bottom:0;
+    font-weight: 700;
+}
+
+
+.content{
+    width:50.5em;
+    margin-top:3em;
+    position:relative;
+}
+
+.jumbotron{
+    margin:0 auto;
+    margin-top:7em;
+    font-family: 'Inria Serif', sans-serif;
+
+}
+
+.jumbotron > .title > h1 {
+    font-size:4rem;
+}
+
+.jumbotron .content{
+    letter-spacing: 1px;
+}
+
+.jumbotron p {
+    font-weight:300;
+    
+    font-size:.8rem;
+    line-height: 1.2em;
+}
+
+.links
+{
+    position:absolute;
+    right:0;
+
+}

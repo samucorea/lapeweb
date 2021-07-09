@@ -17,3 +17,7 @@ html{
     top: .125em;
     position:relative;
 }
+
+img{
+    display:block;
+}

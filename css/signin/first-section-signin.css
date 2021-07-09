@@ -1,0 +1,67 @@
+html,body {
+    height:100%;
+}
+
+.login-submit{
+    display:flex;
+    justify-content: space-between;
+    
+   
+}
+
+input{
+    width:100%;
+    box-sizing: border-box;
+    margin-top: 1.2em;
+    line-height: 1.5rem;
+    font-family: 'Inria Serif', sans-serif;
+}
+
+input[type="text"]::placeholder{
+    padding-left:1em;
+}
+
+.inputs-login{
+ 
+    flex-grow:0.7;
+    position:relative;
+}
+
+ul.submit-links{
+    display:flex;
+    justify-content: space-between;
+    padding:0;
+    margin:0;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    align-items: baseline;
+
+}
+
+ul.submit-links > li {
+    margin-right:0;
+    letter-spacing: 1px;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+#sign-in-button{
+    font-size:1.1rem;
+}
+
+.account-links{
+    margin-top:2.5em;
+    font-family: 'Inria Serif', sans-serif;
+    letter-spacing: 1px;
+}
+
+.account-links > div:first-child{
+    font-weight: 300;
+}
+
+.account-links > div{
+    margin-top:.5em;
+}

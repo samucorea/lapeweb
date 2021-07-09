@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/common/nav.css">
     <link rel="stylesheet" href="./css/home/first-section.css">
     <link rel="stylesheet" href="./css/home/second-section.css">
+    <link rel="stylesheet" href="./css/signin/first-section-signin.css">
     <title>Login</title>
 </head>
 
@@ -44,18 +45,26 @@
             <ul class="sub-titles">
                 <li>Space suitable for an artistic soul.</li>
             </ul>
-            <form>
-                <div><input placeholder="Username" type="text" /></div>
-                <div><input placeholder="Email" type="text" /></div>
-                <div><input placeholder="New password" type="text" /></div>
-                <div class="links">
-                    <div><a href="#">Privacy & Policy</a></div>
-                    <div><a href="#">Sign In</a></div>
-                </div>
-            </form>
+            <div class="login-submit">
+                <form class="inputs-login">
+                    <div><input placeholder="Username" type="text" /></div>
+                    <div><input placeholder="Email" type="text" /></div>
+                    <div><input placeholder="New password" type="text" /></div>
+                    <ul class="submit-links">
+                        <li><a class="text-underline" href="#">Privacy & Policy</a></li>
+                        <li id="sign-in-button"><a href="#">Sign In</a></li>
+                    </ul>
+                </form>
+                <img src="images/signin/profile.png" />
 
-            <div><a href="#">Don't have an account yet?</a></div>
-            <div><a href="#">Don't have an account yet?</a></div>
+            </div>
+
+            <div class="account-links">
+                <div><a href="#">Don't have an account yet?</a></div>
+                <div><a href="#">Regístrate <div class="svg-icon svg-baseline"><img
+                                src="./images/icons/right-arrow.svg">
+                        </div></a></div>
+            </div>
 
         </div>
 
