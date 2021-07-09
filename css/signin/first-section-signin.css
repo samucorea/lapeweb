@@ -1,7 +1,10 @@
 html,body {
     height:100%;
 }
-
+.jumbotron{
+    margin: 0 auto;
+    margin-top:7em;
+}
 .login-submit{
     display:flex;
     justify-content: space-between;
